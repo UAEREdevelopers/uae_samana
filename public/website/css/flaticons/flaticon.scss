@@ -1,0 +1,65 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?931e2f98ae0370166ae229833f24a886") format("truetype"),
+url("./flaticon.woff?931e2f98ae0370166ae229833f24a886") format("woff"),
+url("./flaticon.woff2?931e2f98ae0370166ae229833f24a886") format("woff2"),
+url("./flaticon.eot?931e2f98ae0370166ae229833f24a886#iefix") format("embedded-opentype"),
+url("./flaticon.svg?931e2f98ae0370166ae229833f24a886#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "bed": "\f101",
+    "tag": "\f102",
+    "building": "\f103",
+    "down-arrow": "\f104",
+    "villa": "\f105",
+    "tennis": "\f106",
+    "sport": "\f107",
+    "golf": "\f108",
+    "university": "\f109",
+    "gym": "\f10a",
+);
+
+.flaticon-bed:before {
+    content: map-get($flaticon-map, "bed");
+}
+.flaticon-tag:before {
+    content: map-get($flaticon-map, "tag");
+}
+.flaticon-building:before {
+    content: map-get($flaticon-map, "building");
+}
+.flaticon-down-arrow:before {
+    content: map-get($flaticon-map, "down-arrow");
+}
+.flaticon-villa:before {
+    content: map-get($flaticon-map, "villa");
+}
+.flaticon-tennis:before {
+    content: map-get($flaticon-map, "tennis");
+}
+.flaticon-sport:before {
+    content: map-get($flaticon-map, "sport");
+}
+.flaticon-golf:before {
+    content: map-get($flaticon-map, "golf");
+}
+.flaticon-university:before {
+    content: map-get($flaticon-map, "university");
+}
+.flaticon-gym:before {
+    content: map-get($flaticon-map, "gym");
+}

@@ -1,0 +1,21 @@
+.div_construction_handover{
+	background: #f2f1f4;
+    text-align: center;
+}
+
+.payment_plan_heading{
+	text-align: center;
+}
+
+.arrow_payment_plan{
+	width: 200px;
+    height: 200px;
+}
+
+.pp_percentage_font{
+	font-size: 2.5em;
+}
+
+.text-uppercase{
+	text-transform: uppercase;
+}
